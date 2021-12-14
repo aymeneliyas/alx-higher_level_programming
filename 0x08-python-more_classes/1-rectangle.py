@@ -4,8 +4,16 @@
 
 
 class Rectangle:
-    """class rectangle
     """
+        Rectangle: defines a rectangle
+        Attributes:
+            width (int): width of rectangle
+            height (int): height of rectangle
+        Method:
+            __init__: Initializes width and height for all instances
+    """
+
+
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
